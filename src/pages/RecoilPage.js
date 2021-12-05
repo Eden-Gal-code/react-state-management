@@ -1,5 +1,6 @@
 import React from "react";
 import Decrementor from "../components/recoil/Decrementor";
+import DoubleCounter from "../components/recoil/DoubleCounter";
 import Generic from "../components/recoil/Generic";
 import IncrementCounter from "../components/recoil/IncrementCounter";
 
@@ -8,19 +9,12 @@ import ShowCount from "../components/recoil/ShowCount";
 const RecoilPage = () => {
   return (
     <>
-      <div>
-        <Generic />
-      </div>
-      <div>
-        <ShowCount />
-      </div>
-      <div>
-        <Incrementor />
-      </div>
-      <div>
-        <Decrementor />
-      </div>
-      <IncrementCounter></IncrementCounter>
+      <Generic />
+      <ShowCount />
+      <Incrementor />
+      <Decrementor />
+      <IncrementCounter />
+      <DoubleCounter />
     </>
   );
 };
